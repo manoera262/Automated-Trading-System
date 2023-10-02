@@ -17,7 +17,7 @@ This project aims to automate trading operations based on predefined business lo
    - Stores sensitive information such as the Zerodha API keys and database credentials.
    - Manually add secrets for `endPointURL`, `primarykey`, `KiteApiKey`, and `KiteApiSecret`.
 
-5. **Azure Cosmos DB (SQL API)**:
+5. **Azure Cosmos DB (NoSQL API)**:
    - Stores trade data and other relevant information.
    - Create a database and container for storing trade data.
 
