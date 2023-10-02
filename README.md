@@ -32,6 +32,8 @@ This project aims to automate trading operations based on predefined business lo
       - `primarykey`: The primary key to authenticate with your data source.
       - `KiteApiKey`: The API key for Zerodha Kite Connect.
       - `KiteApiSecret`: The API secret for Zerodha Kite Connect.
+    
+   - Add system generated Manged identity of the function app created to the access policies of the keyvault with get secrets permission.
 
 - **Azure Cosmos DB**:
    - After the Cosmos DB account is created:
